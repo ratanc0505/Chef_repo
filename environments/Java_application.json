@@ -1,0 +1,17 @@
+{
+  "name": "Java_application",
+  "description": "The default Chef environment",
+  "cookbook_versions": {
+
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+    "Java_application": {
+      "build": "28"
+    }
+  },
+  "override_attributes": {
+
+  }
+}
