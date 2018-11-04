@@ -8,7 +8,7 @@
   "chef_type": "environment",
   "default_attributes": {
     "Java_application": {
-      "build": "28"
+      "build": "2"
     }
   },
   "override_attributes": {

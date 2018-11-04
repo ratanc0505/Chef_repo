@@ -1,6 +1,6 @@
 name 'webapplication'
-maintainer 'siva kumar'
-maintainer_email 'kvsiva22@gmail.com'
+maintainer 'Ratan C'
+maintainer_email 'ratanc0505@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures webapplication'
 long_description 'Installs/Configures webapplication'

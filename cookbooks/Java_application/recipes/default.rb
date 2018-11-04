@@ -12,10 +12,10 @@ build = node['Java_application']['build']
 
 ## Copy file from S3 to C:/temp
 
-s3_file "/home/centos/webapplication.1.#{build}.war" do
-  source "s3://java-artifacts-formac/#{build}/webapplication.1.#{build}.war"
+s3_file "/home/centos/Simple_Maven_WebApp.1.#{build}.war" do
+  source "s3://java-artifacts-formac/#{build}/Simple_Maven_WebApp.1.#{build}.war"
   action :create
-  not_if { File.exists?("/home/centos/webapplication.1.#{build}.war") }
+  not_if { File.exists?("/home/centos/Simple_Maven_WebApp.1.#{build}.war") }
 end
 
 ## Deploy LKQ Java_application
